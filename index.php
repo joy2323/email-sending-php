@@ -17,5 +17,9 @@
 
     </form>
 
+    <!-- When the form send button is clicked, the values are 
+    submitted to the send_script.php file which sends 
+    the email address -->
+
 </body>
 </html>
