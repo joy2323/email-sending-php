@@ -20,7 +20,7 @@ if (isset($_POST['send_message_btn'])) {
         <p>".$msg."</p>
     </body>
     </html>";
-    if (mail('joyjoel2011@yahoo.com', $subject, $message, $headers)) {
+    if (mail('receiver@example.com', $subject, $message, $headers)) {
         echo "Email Sent!";
     } else {
         echo "Failed to Send Email. Please try again later";
